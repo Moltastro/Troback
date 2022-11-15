@@ -1,0 +1,39 @@
+
+h1 {
+    font-weight: 500;
+    text-transform: uppercase;
+    display:block;
+    text-align: center;
+    font-size:3vw;
+}
+
+s1 {
+    display:block;
+    font-weight:400;
+    font-size:2.5vw;
+    text-align:center;
+}
+
+div {
+
+}
+
+.split {
+    display:grid;
+    grid-auto-flow:column;
+    grid-column-gap: 5%;
+}
+
+#Eskil {
+    margin:auto;
+    width:90%;
+    height:auto;
+}
+
+.to {
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.ot {
+    grid-template-columns: 1fr 1.5fr;
+}

@@ -1,14 +1,65 @@
-<!DOCTYPE html>
-<html lang="">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <style></style>
-</head>
+#navcont {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1.2fr repeat(4, 1fr);
+    column-gap:2%;
+    text-align: center;
+    background-color: #ffb200;
+}
 
-<body>
+#icon {
+    width: 80%;
+    height: auto;
+}
 
-</body>
-</html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="">
+#navtext {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+heading {
+    display: block;
+    text-align: center;
+    padding-top: 8vh;
+    padding-bottom: 1vh;
+    font-weight: 500;
+    font-size: 8vw;
+    font-weight:600;
+    color:white;
+}
+
+heading::after {
+}
+
+#banner {
+    background-image: url(Decoration/Banner.svg);
+    background-repeat: repeat-x;
+}
+
+subheading {
+    display: block;
+    text-align: center;
+    padding-bottom: 12vh;
+    font-size:2.6vw;
+    color:#2c3e50;
+}
+
+subheading::after {
+}
+
+#navcont div{
+}
+#navcont div:hover{
+    border-radius: 10%;
+    background-color: #f2a800;
+}
+
+
